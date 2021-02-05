@@ -51,7 +51,7 @@ def rodai():
         falar(info)
     elif 'temperatura' in comando:
         api = 'f454b6de88f24007ba428341f2f82711'
-        url = ' http://api.openweathermap.org/data/2.5/weather?appid=f454b6de88f24007ba428341f2f82711&units=metric&id=3451190'
+        url = 'HIDDEN'
         #cidade = input('Nome da Cidade:')
         json_data = requests.get(url).json()
         humidade = json_data["main"]['humidity']
